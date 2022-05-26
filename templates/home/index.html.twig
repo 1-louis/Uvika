@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block carousel %}{% endblock %}
+
+{% block content %}
+	<!-- Three columns of text below the carousel -->
+	<h3>Nos meilleures ventes</h3>
+	<p>Découvrez nos œuvres d'arts les plus vendus.</p>
+	<div class="row">
+		{% for product in products %}
+			<div class="col-md-3">
+				{% include 'product/single_product.html.twig' %}
+			</div>
+		{% endfor %}
+	</div>
+	<!-- /.row -->
+
+
+	<!-- START THE FEATURETTES -->
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-md-7">
+			<h2 class="featurette-heading">Jeune équipe passionné 
+				<span class="text-muted">qui aime partager son travail.</span>
+			</h2>
+			<h4>
+				Je suis développeur web et application, UX et UI designer.</h4>
+			<p class="lead">
+				J'aime l'art et la création visuelle donc, j'ai décidé de vendre mes oeuvres et celles d'autres artistes sur le site, s'il y a des oeuvres qui vous intéressent n'hésitez pas à acheter et contacter nous.</p>
+		</div>
+		<div class="col-md-5">
+			<img src="{{ asset('assets/img/first.png') }}" class="img-fluid" alt="Un savoir-faire Français">
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-md-7 order-md-2">
+			<h2 class="featurette-heading"> 
+            Vous pouvez vous aussi faire partie
+				<span class="text-muted"> de notre groupe d'artiste.</span>
+			</h2>
+			<p class="lead">Nous vendons des œuvres numériques et physique avec le chois du support.</p>
+		</div>
+		<div class="col-md-5 order-md-1">
+			<img src="{{ asset('assets/img/second.png') }}" class="img-fluid" alt="Une boutique ouverte toute l'année">
+		</div>
+	</div>
+
+	<!-- /END THE FEATURETTES -->
+{% endblock %}
