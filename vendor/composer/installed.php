@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '416f7d85d0f91bb19e947388ca2e8c992955bb4e',
+    'reference' => 'db31fd313607230412cb27a2876bae74943817ab',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '416f7d85d0f91bb19e947388ca2e8c992955bb4e',
+      'reference' => 'db31fd313607230412cb27a2876bae74943817ab',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -1003,6 +1003,15 @@
       array (
       ),
       'reference' => 'd4981d21891987fce806fc94e41312fe9c131747',
+    ),
+    'symfony/requirements-checker' => 
+    array (
+      'pretty_version' => 'v2.0.1',
+      'version' => '2.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'cf8893f384348a338157d637e170fe8fb2356016',
     ),
     'symfony/routing' => 
     array (

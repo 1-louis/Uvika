@@ -16,6 +16,6 @@ if (!\class_exists(App_KernelProdContainer::class, false)) {
 
 return new \ContainerLLvrfAg\App_KernelProdContainer([
     'container.build_hash' => 'LLvrfAg',
-    'container.build_id' => '4765e23e',
-    'container.build_time' => 1653634669,
+    'container.build_id' => 'dd54bcea',
+    'container.build_time' => 1653921235,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerLLvrfAg');

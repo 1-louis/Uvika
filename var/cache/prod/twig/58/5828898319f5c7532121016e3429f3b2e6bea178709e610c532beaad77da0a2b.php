@@ -48,7 +48,7 @@ class __TwigTemplate_8fef5a26eb4a0f453cbec02cf4ab72b6ff278076557c4a48e5a4265e707
     {
         $macros = $this->macros;
         // line 5
-        $context["__internal_288bec4462dee3726761590a7b002ef5ce3ef6a9099b4396f7748dce56e5cd6b"] = twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["ea"] ?? null), "i18n", [], "any", false, false, false, 5), "translationDomain", [], "any", false, false, false, 5);
+        $context["__internal_00b022b0420481af4b02c5134d3bcb36d5e87d9556862b002a8f4ef355839433"] = twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["ea"] ?? null), "i18n", [], "any", false, false, false, 5), "translationDomain", [], "any", false, false, false, 5);
         // line 3
         $this->getParent($context)->display($context, array_merge($this->blocks, $blocks));
     }
@@ -80,7 +80,7 @@ class __TwigTemplate_8fef5a26eb4a0f453cbec02cf4ab72b6ff278076557c4a48e5a4265e707
         echo (((null === ($context["custom_page_title"] ?? null))) ? ($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source,         // line 14
 ($context["ea"] ?? null), "crud", [], "any", false, false, false, 14), "defaultPageTitle", [], "any", false, false, false, 14), twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["ea"] ?? null), "i18n", [], "any", false, false, false, 14), "translationParameters", [], "any", false, false, false, 14), "EasyAdminBundle")) : ($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans(        // line 15
 ($context["custom_page_title"] ?? null), twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["ea"] ?? null), "i18n", [], "any", false, false, false, 15), "translationParameters", [], "any", false, false, false, 15),         // line 5
-($context["__internal_288bec4462dee3726761590a7b002ef5ce3ef6a9099b4396f7748dce56e5cd6b"] ?? null))));
+($context["__internal_00b022b0420481af4b02c5134d3bcb36d5e87d9556862b002a8f4ef355839433"] ?? null))));
         $___internal_parse_0_ = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
         // line 11
         echo twig_spaceless($___internal_parse_0_);

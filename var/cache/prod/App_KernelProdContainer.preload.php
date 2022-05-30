@@ -589,19 +589,19 @@ $classes[] = 'Symfony\Component\HttpClient\HttpClient';
 $classes[] = 'Symfony\Component\WebLink\EventListener\AddLinkHeaderListener';
 
 Preloader::preload($classes);
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityAddress.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityCarrier.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityCategory.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityHeader.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityOrder.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityOrderDetails.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityProduct.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityResetPassword.php';
-require_once __DIR__.'/doctrine/orm/Proxies/__CG__AppEntityUser.php';
 
 $classes = [];
 $classes[] = 'Doctrine\\ORM\\Mapping\\ClassMetadata';
 $classes[] = 'Doctrine\\ORM\\Id\\IdentityGenerator';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityAddress.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityCarrier.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityCategory.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityHeader.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityOrder.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityOrderDetails.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityProduct.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityResetPassword.php';
+$classes[] = 'D:\\xampp\\htdocs\\Uvika\\var\\cache\\prod/doctrine/orm/Proxies/__CG__AppEntityUser.php';
 Preloader::preload($classes);
 require_once __DIR__.'/twig/a0/a0f8fe4d5eee2b9ad846daba6090f30c7cfbae8b6ef82b346cecb5fd7de5eb4d.php';
 require_once __DIR__.'/twig/76/768f247922911d7a8e09db47521ab555de05c6f35564de4b08e607c5abe60d05.php';
